@@ -1,0 +1,52 @@
+{
+    "os": "macOS-15.2-x86_64-i386-64bit",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-08T10:32:44.792082",
+    "startedAt": "2025-01-08T10:32:44.234315",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "preprocessed_data.csv:latest",
+        "--artifact_root",
+        "data",
+        "--artifact_type",
+        "segregated_data",
+        "--test_size",
+        "0.3",
+        "--random_state",
+        "42",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/zakaria/Desktop/devops-ml-engineer-code/2-Building-reproducible-model-workflow/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/segregate/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "run.py",
+    "host": "MacBook-Pro.local",
+    "username": "kategnimincoulibaly",
+    "executable": "/opt/anaconda3/envs/mlflow-600089778d316507dcf049d8ebb3f7ee9d20d69c/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.546989440918,
+            "used": 10.42623519897461
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

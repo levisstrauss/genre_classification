@@ -1,0 +1,52 @@
+{
+    "os": "macOS-15.2-x86_64-i386-64bit",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-08T10:35:25.359690",
+    "startedAt": "2025-01-08T10:35:24.787703",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/zakaria/Desktop/devops-ml-engineer-code/2-Building-reproducible-model-workflow/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/outputs/2025-01-08/05-29-44/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/zakaria/Desktop/devops-ml-engineer-code/2-Building-reproducible-model-workflow/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "run.py",
+    "host": "MacBook-Pro.local",
+    "username": "kategnimincoulibaly",
+    "executable": "/opt/anaconda3/envs/mlflow-483e2fbe1eea4bf2402df640413ac76167c25247/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.546989440918,
+            "used": 10.42623519897461
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "os": "macOS-15.2-x86_64-i386-64bit",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-08T10:19:10.284215",
+    "startedAt": "2025-01-08T10:19:09.764647",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/Users/zakaria/Desktop/devops-ml-engineer-code/2-Building-reproducible-model-workflow/lesson-5-final-pipeline-release-and-deploy/exercises/exercise_14/solution/download/download_data.py",
+    "codePathLocal": "download_data.py",
+    "codePath": "download_data.py",
+    "host": "MacBook-Pro.local",
+    "username": "kategnimincoulibaly",
+    "executable": "/opt/anaconda3/envs/mlflow-e190ff1f176d660e6839ac34c7d6bc74393e2ccd/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.546989440918,
+            "used": 10.42623519897461
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
