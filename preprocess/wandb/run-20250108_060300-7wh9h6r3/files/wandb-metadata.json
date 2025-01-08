@@ -1,0 +1,54 @@
+{
+    "os": "macOS-15.2-x86_64-i386-64bit",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-01-08T11:03:01.395504",
+    "startedAt": "2025-01-08T11:03:00.902943",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Data with preprocessing applied"
+    ],
+    "state": "running",
+    "program": "/Users/zakaria/Desktop/genre_classification/preprocess/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/levisstrauss/genre_classification.git",
+        "commit": "2f3aef19b8908b44c978cb4e36a48b4588307daa"
+    },
+    "email": "levisstrauss11@yahoo.com",
+    "root": "/Users/zakaria/Desktop/genre_classification",
+    "host": "MacBook-Pro.local",
+    "username": "kategnimincoulibaly",
+    "executable": "/opt/anaconda3/envs/mlflow-b662b891138f514f86ea83df6f384dc4f23b43c1/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2300,
+        "min": 2300,
+        "max": 2300
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300,
+            "min": 2300,
+            "max": 2300
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 931.546989440918,
+            "used": 10.42623519897461
+        }
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

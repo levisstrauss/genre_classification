@@ -5,6 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/vcs.xml
+
 
 # Distribution / packaging
 .Python

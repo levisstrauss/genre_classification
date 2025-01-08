@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a248d693-70d8-4e88-946d-de5a7be46de2" name="Changes" comment="" />
+    <list default="true" id="a248d693-70d8-4e88-946d-de5a7be46de2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/check_data/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/check_data/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/download/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/download/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluate/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_forest/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/random_forest/wandb/latest-run" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segregate/wandb/latest-run" beforeDir="false" afterPath="$PROJECT_DIR$/segregate/wandb/latest-run" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +41,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -61,6 +71,8 @@
       <workItem from="1736328762010" duration="106000" />
       <workItem from="1736328906144" duration="1994000" />
       <workItem from="1736333243253" duration="704000" />
+      <workItem from="1736333966450" duration="692000" />
+      <workItem from="1736334956082" duration="221000" />
     </task>
     <servers />
   </component>
