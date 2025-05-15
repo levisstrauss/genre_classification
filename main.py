@@ -30,15 +30,15 @@ def go(config: DictConfig):
 
         steps_to_execute = list(config["main"]["execute_steps"])
 
-    # Download step
+    # Download step -> It download file from the internet and save it as artifact
     if "download" in steps_to_execute:
 
         _ = mlflow.run(
-            os.path.join(root_path, "download"),
-            "main",
-            parameters={
+            os.path.join(root_path, "download"), # Path to the component
+            "main", # Entry point of the component
+            parameters={ # Look at the MLproject file to understand the parameters
                 "file_url": config["data"]["file_url"],
-                "artifact_name": "raw_data.parquet",
+                "artifact_name": "raw_data.parquet", #  Name of the output artifact
                 "artifact_type": "raw_data",
                 "artifact_description": "Data as downloaded"
             },
@@ -49,10 +49,10 @@ def go(config: DictConfig):
             os.path.join(root_path, "preprocess"),
             "main",
             parameters={
-                "input_artifact": "raw_data.parquet:latest",
-                "artifact_name": "preprocessed_data.csv",
-                "artifact_type": "preprocessed_data",
-                "artifact_description": "Data with preprocessing applied"
+                "input_artifact": "raw_data.parquet:latest", # the input here is the output of the previous step
+                "artifact_name": "preprocessed_data.csv", # output
+                "artifact_type": "preprocessed_data", # Type
+                "artifact_description": "Data with preprocessing applied" # Description
             },
         )
 
@@ -74,16 +74,16 @@ def go(config: DictConfig):
             "main",
             parameters={
                 "input_artifact": "preprocessed_data.csv:latest",
-                "artifact_root": "data",
+                "artifact_root": "data", # We are taking root here because this is generating two artifact
                 "artifact_type": "segregated_data",
-                "test_size": config["data"]["test_size"],
+                "test_size": config["data"]["test_size"], # test size
                 "stratify": config["data"]["stratify"]
             },
         )
 
     if "random_forest" in steps_to_execute:
         # Serialize decision tree configuration
-        model_config = os.path.abspath("random_forest_config.yml")
+        model_config = os.path.abspath("random_forest_config.yml") # Load all the random forest params
 
         with open(model_config, "w+") as fp:
             fp.write(OmegaConf.to_yaml(config["random_forest_pipeline"]))
