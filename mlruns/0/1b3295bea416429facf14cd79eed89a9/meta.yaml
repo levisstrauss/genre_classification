@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/1b3295bea416429facf14cd79eed89a9/artifacts
+end_time: 1767412988060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1b3295bea416429facf14cd79eed89a9
+run_name: exultant-deer-421
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412975115
+status: 3
+tags: []
+user_id: codemon

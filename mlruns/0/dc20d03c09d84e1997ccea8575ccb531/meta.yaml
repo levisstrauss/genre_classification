@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/dc20d03c09d84e1997ccea8575ccb531/artifacts
+end_time: 1767413658950
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc20d03c09d84e1997ccea8575ccb531
+run_name: sedate-seal-182
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413620405
+status: 3
+tags: []
+user_id: codemon

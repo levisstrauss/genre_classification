@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/3c9d7cbf320d4d3b854c6526486d9826/artifacts
+end_time: 1767411711547
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3c9d7cbf320d4d3b854c6526486d9826
+run_name: luminous-stork-7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411699667
+status: 3
+tags: []
+user_id: codemon

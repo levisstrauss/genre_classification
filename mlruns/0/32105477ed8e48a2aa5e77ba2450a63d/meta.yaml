@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/32105477ed8e48a2aa5e77ba2450a63d/artifacts
+end_time: 1767411699617
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32105477ed8e48a2aa5e77ba2450a63d
+run_name: delicate-pig-866
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411690144
+status: 3
+tags: []
+user_id: codemon

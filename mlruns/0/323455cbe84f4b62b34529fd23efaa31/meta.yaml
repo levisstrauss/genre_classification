@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/323455cbe84f4b62b34529fd23efaa31/artifacts
+end_time: 1767413011460
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 323455cbe84f4b62b34529fd23efaa31
+run_name: adaptable-slug-814
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412988113
+status: 3
+tags: []
+user_id: codemon

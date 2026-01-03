@@ -5,7 +5,8 @@ from omegaconf import DictConfig, OmegaConf
 
 
 # This automatically reads in the configuration
-@hydra.main(config_name='config')
+# @hydra.main(config_name='config')
+@hydra.main(config_name='config', version_base=None, config_path=".")
 def go(config: DictConfig):
 
     # Setup the wandb experiment. All runs will be grouped under this name
@@ -21,8 +22,8 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
-        steps_to_execute = config["main"]["execute_steps"]
+        # assert isinstance(config["main"]["execute_steps"], list)
+        steps_to_execute = list(config["main"]["execute_steps"])
 
     # Download step
     if "download" in steps_to_execute:
@@ -119,3 +120,5 @@ if __name__ == "__main__":
 
 
 # THE COMPLETE PIPELINE
+
+# mlflow run .

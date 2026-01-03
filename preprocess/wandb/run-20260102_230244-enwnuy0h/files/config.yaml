@@ -1,0 +1,45 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            zz50bl0wyvh7ibog5b68svo12c4k1ga8:
+                args:
+                    - --input_artifact
+                    - raw_data.parquet:latest
+                    - --artifact_name
+                    - preprocessed_data.csv
+                    - --artifact_type
+                    - preprocessed_data.csv
+                    - --artifact_description
+                    - Data with preprocessing applied
+                codePath: preprocess/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1000240963584"
+                        used: "688145027072"
+                email: zcoulibalyeng@gmail.com
+                executable: /opt/anaconda3/envs/mlflow-428f3442275814dbf6350cf02d74496ce6bae3ac/bin/python
+                git:
+                    commit: e5ea4966bc12634c785fe1e07322102e698f9ea0
+                    remote: https://github.com/levisstrauss/genre_classification.git
+                host: MacBookPro.lan
+                memory:
+                    total: "17179869184"
+                os: macOS-26.2-x86_64-i386-64bit-Mach-O
+                program: /Users/codemon/Desktop/genre_classification/preprocess/run.py
+                python: CPython 3.13.11
+                root: /Users/codemon/Desktop/genre_classification/preprocess
+                startedAt: "2026-01-03T04:02:44.676756Z"
+                writerId: zz50bl0wyvh7ibog5b68svo12c4k1ga8
+        m: []
+        python_version: 3.13.11
+        t:
+            "4": 3.13.11
+            "5": 0.21.3
+            "8":
+                - 2
+            "12": 0.21.3
+            "13": darwin-x86_64

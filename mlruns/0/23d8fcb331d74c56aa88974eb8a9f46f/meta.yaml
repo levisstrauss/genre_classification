@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/23d8fcb331d74c56aa88974eb8a9f46f/artifacts
+end_time: 1767414126641
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 23d8fcb331d74c56aa88974eb8a9f46f
+run_name: casual-mink-733
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414103813
+status: 3
+tags: []
+user_id: codemon

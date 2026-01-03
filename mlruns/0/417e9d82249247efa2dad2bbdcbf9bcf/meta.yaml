@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/417e9d82249247efa2dad2bbdcbf9bcf/artifacts
+end_time: 1767414103758
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 417e9d82249247efa2dad2bbdcbf9bcf
+run_name: charming-sloth-236
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414091429
+status: 3
+tags: []
+user_id: codemon

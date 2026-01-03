@@ -1,0 +1,42 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T04:13:49.903596Z",
+  "args": [
+    "--train_data",
+    "data_train.csv:latest",
+    "--model_config",
+    "/Users/codemon/Desktop/genre_classification/random_forest_config.yml",
+    "--export_artifact",
+    "model_export",
+    "--random_seed",
+    "42",
+    "--val_size",
+    "0.3",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/Users/codemon/Desktop/genre_classification/random_forest/run.py",
+  "codePath": "random_forest/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/random_forest",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-a3629828cd971ffe646011f938d3373bb5d5ef95/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "689496698880"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "emm4tteiirh7z7ose3t85skcihziq9w7"
+}

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/a34d7a3f672340ba9e4cc1fd2b6746a9/artifacts
+end_time: 1767413598990
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a34d7a3f672340ba9e4cc1fd2b6746a9
+run_name: bouncy-hog-83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413585242
+status: 3
+tags: []
+user_id: codemon

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/15bba429c9824c6e9997912acffa8108/artifacts
+end_time: 1767411891722
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15bba429c9824c6e9997912acffa8108
+run_name: judicious-tern-620
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411724119
+status: 3
+tags: []
+user_id: codemon

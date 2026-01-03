@@ -1,0 +1,98 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            r2inge9ho0t2ilq9tzev2tp6eyl0bb8q:
+                args:
+                    - --train_data
+                    - data_train.csv:latest
+                    - --model_config
+                    - /Users/codemon/Desktop/genre_classification/random_forest_config.yml
+                    - --export_artifact
+                    - model_export
+                    - --random_seed
+                    - "42"
+                    - --val_size
+                    - "0.3"
+                    - --stratify
+                    - genre
+                codePath: random_forest/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1000240963584"
+                        used: "689261772800"
+                email: zcoulibalyeng@gmail.com
+                executable: /opt/anaconda3/envs/mlflow-a3629828cd971ffe646011f938d3373bb5d5ef95/bin/python
+                git:
+                    commit: e5ea4966bc12634c785fe1e07322102e698f9ea0
+                    remote: https://github.com/levisstrauss/genre_classification.git
+                host: MacBookPro.lan
+                memory:
+                    total: "17179869184"
+                os: macOS-26.2-x86_64-i386-64bit-Mach-O
+                program: /Users/codemon/Desktop/genre_classification/random_forest/run.py
+                python: CPython 3.13.11
+                root: /Users/codemon/Desktop/genre_classification/random_forest
+                startedAt: "2026-01-03T03:46:51.261143Z"
+                writerId: r2inge9ho0t2ilq9tzev2tp6eyl0bb8q
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "4": 3.13.11
+            "5": 0.21.3
+            "8":
+                - 2
+            "12": 0.21.3
+            "13": darwin-x86_64
+export_artifact:
+    value: model_export
+features:
+    value:
+        categorical:
+            - time_signature
+            - key
+        nlp:
+            - text_feature
+        numerical:
+            - danceability
+            - energy
+            - loudness
+            - speechiness
+            - acousticness
+            - instrumentalness
+            - liveness
+            - valence
+            - tempo
+            - duration_ms
+random_forest:
+    value:
+        bootstrap: true
+        ccp_alpha: 0
+        class_weight: balanced
+        criterion: gini
+        max_depth: 13
+        max_features: null
+        max_leaf_nodes: null
+        max_samples: null
+        min_impurity_decrease: 0
+        min_samples_leaf: 1
+        min_samples_split: 2
+        min_weight_fraction_leaf: 0
+        n_estimators: 100
+        n_jobs: null
+        oob_score: false
+        random_state: 42
+        verbose: 0
+        warm_start: false
+tfidf:
+    value:
+        max_features: 10

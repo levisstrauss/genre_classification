@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/010309bcec564c7796a5d44318ccbf14/artifacts
+end_time: 1767413569803
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 010309bcec564c7796a5d44318ccbf14
+run_name: colorful-perch-635
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413559965
+status: 3
+tags: []
+user_id: codemon

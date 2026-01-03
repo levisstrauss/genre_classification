@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/1fa4a8d7a7284a889c1140affc502a51/artifacts
+end_time: 1767414180867
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1fa4a8d7a7284a889c1140affc502a51
+run_name: aged-bass-248
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414164042
+status: 3
+tags: []
+user_id: codemon

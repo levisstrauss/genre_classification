@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/9cbffa1e741944318b79438ad82a9b01/artifacts
+end_time: 1767412567191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9cbffa1e741944318b79438ad82a9b01
+run_name: placid-skink-480
+run_uuid: 9cbffa1e741944318b79438ad82a9b01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412539723
+status: 4
+tags: []
+user_id: codemon

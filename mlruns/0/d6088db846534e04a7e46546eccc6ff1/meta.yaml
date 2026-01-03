@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/d6088db846534e04a7e46546eccc6ff1/artifacts
+end_time: 1767414163989
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6088db846534e04a7e46546eccc6ff1
+run_name: peaceful-yak-102
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414126697
+status: 3
+tags: []
+user_id: codemon

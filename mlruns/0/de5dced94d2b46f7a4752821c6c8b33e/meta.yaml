@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/de5dced94d2b46f7a4752821c6c8b33e/artifacts
+end_time: 1767411346413
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: de5dced94d2b46f7a4752821c6c8b33e
+run_name: upbeat-wolf-506
+run_uuid: de5dced94d2b46f7a4752821c6c8b33e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411100693
+status: 4
+tags: []
+user_id: codemon

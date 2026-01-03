@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/eab8e725b2fd4995aaa79974961c8c3f/artifacts
+end_time: 1767411244273
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eab8e725b2fd4995aaa79974961c8c3f
+run_name: classy-whale-657
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411162624
+status: 3
+tags: []
+user_id: codemon

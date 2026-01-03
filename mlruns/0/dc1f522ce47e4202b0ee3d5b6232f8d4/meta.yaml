@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/dc1f522ce47e4202b0ee3d5b6232f8d4/artifacts
+end_time: 1767414076266
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc1f522ce47e4202b0ee3d5b6232f8d4
+run_name: luxuriant-hen-194
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414066235
+status: 3
+tags: []
+user_id: codemon

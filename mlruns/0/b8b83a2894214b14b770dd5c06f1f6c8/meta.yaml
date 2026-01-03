@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/b8b83a2894214b14b770dd5c06f1f6c8/artifacts
+end_time: 1767413675904
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b8b83a2894214b14b770dd5c06f1f6c8
+run_name: hilarious-slug-263
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413659000
+status: 3
+tags: []
+user_id: codemon

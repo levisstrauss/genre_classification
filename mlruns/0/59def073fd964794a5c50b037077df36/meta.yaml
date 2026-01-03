@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/59def073fd964794a5c50b037077df36/artifacts
+end_time: 1767412566853
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59def073fd964794a5c50b037077df36
+run_name: resilient-sponge-963
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412556257
+status: 4
+tags: []
+user_id: codemon

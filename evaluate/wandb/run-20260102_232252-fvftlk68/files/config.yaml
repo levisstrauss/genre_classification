@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            mpzo1zu5avs4z1a2v2u6op30l51zbj9q:
+                args:
+                    - --model_export
+                    - model_export:latest
+                    - --test_data
+                    - data_test.csv:latest
+                codePath: evaluate/run.py
+                codePathLocal: run.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1000240963584"
+                        used: "689526214656"
+                email: zcoulibalyeng@gmail.com
+                executable: /opt/anaconda3/envs/mlflow-08ff023f74d8dc4ccd988e8d53bd7b56325212db/bin/python
+                git:
+                    commit: e5ea4966bc12634c785fe1e07322102e698f9ea0
+                    remote: https://github.com/levisstrauss/genre_classification.git
+                host: MacBookPro.lan
+                memory:
+                    total: "17179869184"
+                os: macOS-26.2-x86_64-i386-64bit-Mach-O
+                program: /Users/codemon/Desktop/genre_classification/evaluate/run.py
+                python: CPython 3.13.11
+                root: /Users/codemon/Desktop/genre_classification/evaluate
+                startedAt: "2026-01-03T04:22:52.603325Z"
+                writerId: mpzo1zu5avs4z1a2v2u6op30l51zbj9q
+        m: []
+        python_version: 3.13.11
+        t:
+            "1":
+                - 5
+                - 53
+            "2":
+                - 5
+                - 53
+            "3":
+                - 62
+            "4": 3.13.11
+            "5": 0.21.3
+            "8":
+                - 2
+            "12": 0.21.3
+            "13": darwin-x86_64

@@ -1,0 +1,1 @@
+{"_runtime":5,"confusion_matrix":{"path":"media/images/confusion_matrix_0_fbebed18c1198b10c52a.png","format":"png","width":1000,"height":1000,"_type":"image-file","sha256":"fbebed18c1198b10c52ad010f42ab4e113d9ac1a827948ebb67f184db6b344cb","size":95169},"_timestamp":1.767414179408288e+09,"_step":0,"AUC":0.948374317141282,"_wandb":{"runtime":5}}

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/f3a8d42bd0234b619fa41dff5cb86756/artifacts
+end_time: 1767411345994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f3a8d42bd0234b619fa41dff5cb86756
+run_name: mercurial-stoat-953
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767411244322
+status: 4
+tags: []
+user_id: codemon

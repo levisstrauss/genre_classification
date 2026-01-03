@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/3d143ced3a90434c84299a694cb0b763/artifacts
+end_time: 1767413620350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d143ced3a90434c84299a694cb0b763
+run_name: selective-grouse-200
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413599043
+status: 3
+tags: []
+user_id: codemon

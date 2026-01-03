@@ -1,0 +1,34 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T04:22:52.603325Z",
+  "args": [
+    "--model_export",
+    "model_export:latest",
+    "--test_data",
+    "data_test.csv:latest"
+  ],
+  "program": "/Users/codemon/Desktop/genre_classification/evaluate/run.py",
+  "codePath": "evaluate/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/evaluate",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-08ff023f74d8dc4ccd988e8d53bd7b56325212db/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "689526214656"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "mpzo1zu5avs4z1a2v2u6op30l51zbj9q"
+}

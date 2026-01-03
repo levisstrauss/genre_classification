@@ -1,0 +1,42 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T04:21:51.198444Z",
+  "args": [
+    "--input_artifact",
+    "preprocessed_data.csv:latest",
+    "--artifact_root",
+    "data",
+    "--artifact_type",
+    "segregated_data",
+    "--test_size",
+    "0.3",
+    "--random_state",
+    "42",
+    "--stratify",
+    "genre"
+  ],
+  "program": "/Users/codemon/Desktop/genre_classification/segregate/run.py",
+  "codePath": "segregate/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/segregate",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-2b05c334639a6588d5c96ec48ecc7de59f6ca254/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "689516486656"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "csn4k0yy76z0yd5bowc93iiy38dj3pqo"
+}

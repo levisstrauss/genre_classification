@@ -1,0 +1,40 @@
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.2.0
+model_id: null
+model_size_bytes: 5220681
+model_uuid: 1343d0baa3534d13a1ab558ddd43ccc2
+prompts: null
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "acousticness", "required": true}, {"type":
+    "double", "name": "danceability", "required": true}, {"type": "long", "name":
+    "duration_ms", "required": true}, {"type": "double", "name": "energy", "required":
+    true}, {"type": "double", "name": "instrumentalness", "required": true}, {"type":
+    "double", "name": "liveness", "required": true}, {"type": "double", "name": "loudness",
+    "required": false}, {"type": "double", "name": "speechiness", "required": true},
+    {"type": "double", "name": "tempo", "required": true}, {"type": "double", "name":
+    "valence", "required": true}, {"type": "long", "name": "key", "required": true},
+    {"type": "long", "name": "time_signature", "required": true}, {"type": "string",
+    "name": "text_feature", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-01-03 04:22:31.433734'

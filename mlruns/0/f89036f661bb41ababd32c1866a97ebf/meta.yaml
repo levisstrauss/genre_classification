@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/f89036f661bb41ababd32c1866a97ebf/artifacts
+end_time: 1767413676150
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f89036f661bb41ababd32c1866a97ebf
+run_name: useful-wasp-941
+run_uuid: f89036f661bb41ababd32c1866a97ebf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413554405
+status: 3
+tags: []
+user_id: codemon

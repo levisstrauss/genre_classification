@@ -1,0 +1,44 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            uz8zcv7jl8tfoxsifq5zuh1lpcjj1ouz:
+                args:
+                    - -s
+                    - -vv
+                    - .
+                    - --reference_artifact
+                    - exercise_14/preprocessed_data.csv:latest
+                    - --sample_artifact
+                    - preprocessed_data.csv:latest
+                    - --ks_alpha
+                    - "0.05"
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "1000240963584"
+                        used: "687579467776"
+                email: zcoulibalyeng@gmail.com
+                executable: /opt/anaconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/python3.13
+                git:
+                    commit: e5ea4966bc12634c785fe1e07322102e698f9ea0
+                    remote: https://github.com/levisstrauss/genre_classification.git
+                host: MacBookPro.lan
+                memory:
+                    total: "17179869184"
+                os: macOS-26.2-x86_64-i386-64bit-Mach-O
+                program: /opt/anaconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/pytest
+                python: CPython 3.13.11
+                root: /Users/codemon/Desktop/genre_classification/check_data
+                startedAt: "2026-01-03T03:34:58.650451Z"
+                writerId: uz8zcv7jl8tfoxsifq5zuh1lpcjj1ouz
+        m: []
+        python_version: 3.13.11
+        t:
+            "4": 3.13.11
+            "5": 0.21.3
+            "8":
+                - 2
+            "12": 0.21.3
+            "13": darwin-x86_64

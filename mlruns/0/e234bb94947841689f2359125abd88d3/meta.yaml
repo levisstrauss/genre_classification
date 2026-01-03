@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/e234bb94947841689f2359125abd88d3/artifacts
+end_time: 1767413585189
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e234bb94947841689f2359125abd88d3
+run_name: adventurous-duck-319
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767413569907
+status: 3
+tags: []
+user_id: codemon

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/678fd6349d2840d5812e7337d5f62903/artifacts
+end_time: 1767412958662
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 678fd6349d2840d5812e7337d5f62903
+run_name: sedate-bat-595
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412946180
+status: 3
+tags: []
+user_id: codemon

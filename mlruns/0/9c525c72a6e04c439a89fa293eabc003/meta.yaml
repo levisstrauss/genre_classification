@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/9c525c72a6e04c439a89fa293eabc003/artifacts
+end_time: 1767412975064
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9c525c72a6e04c439a89fa293eabc003
+run_name: omniscient-chimp-392
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767412958711
+status: 3
+tags: []
+user_id: codemon

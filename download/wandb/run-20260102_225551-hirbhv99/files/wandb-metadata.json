@@ -1,0 +1,38 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T03:55:51.407500Z",
+  "args": [
+    "--file_url",
+    "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+    "--artifact_name",
+    "raw_data.parquet",
+    "--artifact_type",
+    "raw_data",
+    "--artifact_description",
+    "Data as downloaded"
+  ],
+  "program": "/Users/codemon/Desktop/genre_classification/download/download_data.py",
+  "codePath": "download/download_data.py",
+  "codePathLocal": "download_data.py",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/download",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-c8796fcdf2a60e9d2d7a0e2de87ce7cf78fe7920/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "688146374656"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "wmhl6qci9y6j09b5mo5tt9ukq7nwlhgj"
+}

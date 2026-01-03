@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/452a4f8f804246269e8906154ec84452/artifacts
+end_time: 1767414181119
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 452a4f8f804246269e8906154ec84452
+run_name: colorful-hare-245
+run_uuid: 452a4f8f804246269e8906154ec84452
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414060884
+status: 3
+tags: []
+user_id: codemon

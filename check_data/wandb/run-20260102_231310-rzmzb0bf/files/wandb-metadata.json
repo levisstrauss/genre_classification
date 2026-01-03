@@ -1,0 +1,37 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T04:13:10.514314Z",
+  "args": [
+    "-s",
+    "-vv",
+    ".",
+    "--reference_artifact",
+    "exercise_14/preprocessed_data.csv:latest",
+    "--sample_artifact",
+    "preprocessed_data.csv:latest",
+    "--ks_alpha",
+    "0.05"
+  ],
+  "program": "/opt/anaconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/pytest",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/check_data",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-8b8c5bbbcf30a4f621fb194c7af489e467ffbbf1/bin/python3.13",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "689500430336"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "e2z9epim9fcf2buq3qnbf9ruil4w6w30"
+}

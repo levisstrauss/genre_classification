@@ -1,0 +1,38 @@
+{
+  "os": "macOS-26.2-x86_64-i386-64bit-Mach-O",
+  "python": "CPython 3.13.11",
+  "startedAt": "2026-01-03T04:21:21.932711Z",
+  "args": [
+    "--input_artifact",
+    "raw_data.parquet:latest",
+    "--artifact_name",
+    "preprocessed_data.csv",
+    "--artifact_type",
+    "preprocessed_data.csv",
+    "--artifact_description",
+    "Data with preprocessing applied"
+  ],
+  "program": "/Users/codemon/Desktop/genre_classification/preprocess/run.py",
+  "codePath": "preprocess/run.py",
+  "codePathLocal": "run.py",
+  "git": {
+    "remote": "https://github.com/levisstrauss/genre_classification.git",
+    "commit": "e5ea4966bc12634c785fe1e07322102e698f9ea0"
+  },
+  "email": "zcoulibalyeng@gmail.com",
+  "root": "/Users/codemon/Desktop/genre_classification/preprocess",
+  "host": "MacBookPro.lan",
+  "executable": "/opt/anaconda3/envs/mlflow-428f3442275814dbf6350cf02d74496ce6bae3ac/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1000240963584",
+      "used": "689513721856"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "writerId": "q9cq0k6qag86lqor59tczexgfduigd1y"
+}

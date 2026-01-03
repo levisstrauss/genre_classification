@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/codemon/Desktop/genre_classification/mlruns/0/95b79c3d6eb34ff29858143a4510a7cc/artifacts
+end_time: 1767414091371
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95b79c3d6eb34ff29858143a4510a7cc
+run_name: youthful-shark-139
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1767414076318
+status: 3
+tags: []
+user_id: codemon
